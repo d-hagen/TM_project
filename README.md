@@ -1,15 +1,39 @@
-Author Profiling:
-**Preprocessing the Data Set:**
-to present the different Data Sets in the same format:
-→ **tokenization**: removes noise from the data set and enables PoS tagging and using n-gram techniques (use the same tokenizer for all the data)
-**→ remove URLs and HTML tags:** the URL strings are replaced by “url” since this info can be useful later → image links were replaced by “image”
-**→ remove stopwords:** improve processing speed, stopwords do not carry any important info and just serve syntactic functions (use NLTK function)
-**→ stemming:** reduces the number of different features and makes the text less noisy
+# Age Recognition
+
+#### Abstract
+
+Through analysing a multiple data sets, like the pan 2014 or the Schler data set, we plan on building a model that will be able to predict an authors age based on their writing style and themes. For this we will first pre-process text data from either blogs or tweets, by for example removing stop words, tokenizing and further fine tuning based on the text type(Tweet or blog), and then use this processed data to train a model.
+
+#### Research Question
+
+* Can we predict Age based on writing style using Machin learning
+* Is this genre/text type specific 
+* Does writing style change continuously or does it "flatten" and become "stable" at a certain age 
+
+
+
+#### Dataset 
+
+Schler dataset:
+
+* blogs from 2004
+* 19 320 authors 
+* age range 13 -47
+* csv file -> (age and text extraction through column index(like in assignment3))
+* further info: Gender, Topic/Occupation ,Sign , Date
+
+Pan 2016 data set:
+
+* Tweets from 2016
+* Info : Age , Gender ,Date
+* Will need to be downloaded (have to wait for access)
+* .xml file
 
 
 
 
-**Feature implementation and Engineering:**
-**→ TF-IDF:** presents the relative importance of a word in a corpus
-**→ N-grams:** charcater based n-grams and word based n-grams to map them to different age groups
-**→ Part of Speech:** compare different frequencies of PoS tags between age groups
+
+
+
+
+
