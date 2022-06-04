@@ -13,6 +13,7 @@ Through analysing a multiple data sets, like the pan 2014 or the Schler data set
 
 
 #### Dataset 
+as the data set is to large for the github repository please downloaded from (https://www.kaggle.com/datasets/rtatman/blog-authorship-corpus) and store it in the same directory as the model file 
 
 Schler dataset:
 
@@ -21,13 +22,6 @@ Schler dataset:
 * age range 13 -47
 * csv file -> (age and text extraction through column index(like in assignment3))
 * further info: Gender, Topic/Occupation ,Sign , Date
-
-Pan 2016 data set:
-
-* Tweets from 2016
-* Info : Age , Gender ,Date
-* Will need to be downloaded (have to wait for access)
-* .xml file
 
 #### Milestones
 
