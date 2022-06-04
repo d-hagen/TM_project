@@ -1,5 +1,9 @@
 # Age Recognition
 
+
+## Please check out the master brnach for completed project
+
+
 #### Abstract
 
 Through analysing a multiple data sets, like the pan 2014 or the Schler data set, we plan on building a model that will be able to predict an authors age based on their writing style and themes. For this we will first pre-process text data from either blogs or tweets, by for example removing stop words, tokenizing and further fine tuning based on the text type(Tweet or blog), and then use this processed data to train a model.
