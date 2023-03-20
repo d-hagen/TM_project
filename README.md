@@ -33,17 +33,7 @@ Pan 2016 data set:
 * Will need to be downloaded (have to wait for access)
 * .xml file
 
-#### Milestones
 
-* Collect the Data and start with preprocessing (Luca) - weekend 23rd to 24th
-* Finish preprocessing (Luca) - by thursday 28th of april
-* Feature implementation and engineering (TF-IDF, n-grams, PoS, LDA) (Dan & Luca) - by weekend 7th to 8th of may
-* Training the model (Dan) - by Thursday 12th of may
-* retrain/ validate to imporve performance of the classifiers (Luca & Dan) - by weekend 14th to 15th of may
-* Result evaluation (Dan & Luca) - by weekend 21th to 22nd of may
-* Working on Presentation (Dan & Luca) - last week
-
---> documentation will be an ongoing process throughput the entire time by the both of us
 
 
 
